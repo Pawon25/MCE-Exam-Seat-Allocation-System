@@ -9,7 +9,8 @@ A project built for my colleges' exam section to solve a problem of inefficient 
 ![Logo](https://www.mcehassan.ac.in/assets/images/MCE_logo.png)
 
 
-<h1>Just checking if we can use Html tags</h1>
+<h1>Phase01: Writing a java code to implement student distribution</h1>
+<img src=""C:\Users\Dell\Desktop\Screenshot 2024-02-28 150659.jpg"" alt="">
 
 
 
