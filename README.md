@@ -192,5 +192,5 @@ Exception Handling:The code includes a try-catch block to catch any exceptions t
 Closing Resources:Finally, the code closes the PDF document and handles any exceptions that might occur during the process.
 </p></PRE>
 
-![Flow](C:\Users\Dell\Desktop\MCE-Exam-Seat-Allocation-System\Input (1).png)
+![Flow](Input (1).png)
 
