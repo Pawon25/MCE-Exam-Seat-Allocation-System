@@ -182,19 +182,14 @@ mysql> desc student;
 
 <h2>Java Program and APIs</h2>
 
-<PRE><p> The code begins with a series of import statements that import necessary classes and packages for JDBC (Java Database Connectivity) and iTextPDF, which is a library used for creating PDF documents in Java.
-The code specifies the path (C:\\Users\\Dell\\Desktop\\PDFfile\\open.pdf) where the PDF file will be created and creates a Document object to represent the PDF document. It then opens the document using document.open().
-The code establishes a connection to a MySQL database using JDBC. It specifies the database URL, database name, username, and password.
-Room Counting: 
-    The code executes a query to count the number of rooms (rooms table) in the database and fetches their names and capacities.
-Main Database Operations: 
-    Within a loop over departments, the code fetches courses and students data from the database, then performs the following tasks for each course:
-    Selects students who have chosen the course.
-    Iterates over rooms and assigns seats to students, creating a list of students and their allocated seats.
-    Writes the student and seat information to the PDF document.
-Exception Handling: 
-    The code includes a try-catch block to catch any exceptions that might occur during database connection or query execution. If an exception occurs, it prints the stack trace and displays an error message using JOptionPane.
-Closing Resources: 
-    Finally, the code closes the PDF document and handles any exceptions that might occur during the process.
+<PRE><p> 
+The code begins with a series of import statements that import necessary classes and packages for JDBC (Java Database Connectivity) and iTextPDF, which is a library used for creating PDF documents in Java.
+The code specifies the path (C:\\Users\\Dell\\Desktop\\PDFfile\\open.pdf) where the PDF file will be created and creates a Document object to represent the PDF document. It then opens the document using document.open().The code establishes a connection to a MySQL database using JDBC. It specifies the database URL, database name, username, and password.
+
+Room Counting:The code executes a query to count the number of rooms (rooms table) in the database and fetches their names and capacities.
+Main Database Operations:Within a loop over departments, the code fetches courses and students data from the database, then performs the following tasks for each course:Selects students who have chosen the course.Iterates over rooms and assigns seats to students, creating a list of students and their allocated seats.Writes the student and seat information to the PDF document.
+Exception Handling:The code includes a try-catch block to catch any exceptions that might occur during database connection or query execution. If an exception occurs, it prints the stack trace and displays an error message using JOptionPane.
+Closing Resources:Finally, the code closes the PDF document and handles any exceptions that might occur during the process.
 </p></PRE>
+
 
