@@ -117,4 +117,66 @@ A project built for my colleges' exam section to solve a problem of inefficient 
 
 
 
+<h1>Phase02: Final Project🚀</h1>
+<h2>Database: MySql </h2>
+<h6>We chose MySql database to store our college data since we felt it is bit easier comapered to other databses and we avoided giving user inputs since it becomes so time consuming and spoils user experience of staff</h6>
+
+<h3>Tables</h3>
+<PRE><p>+------------------------+
+| Tables_in_mce_database |
++------------------------+
+| courses                |
+| department             |
+| faculty                |
+| rooms                  |
+| student                |
++------------------------+</p></PRE>
+
+<h3>Database Table Description</h3>
+<PRE><p>
+mysql> desc courses;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| Course_Code | varchar(10) | NO   | PRI | NULL    |       |
+| Course_Name | varchar(40) | YES  |     | NULL    |       |
+| Department  | int         | YES  | MUL | NULL    |       |
+| Semester    | int         | YES  |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+
+mysql> desc department;
++--------------+--------------+------+-----+---------+-------+
+| Field        | Type         | Null | Key | Default | Extra |
++--------------+--------------+------+-----+---------+-------+
+| DepartmentID | int          | NO   | PRI | NULL    |       |
+| Name         | varchar(100) | YES  |     | NULL    |       |
++--------------+--------------+------+-----+---------+-------+
+
+mysql> desc faculty;
++------------+-------------+------+-----+---------+-------+
+| Field      | Type        | Null | Key | Default | Extra |
++------------+-------------+------+-----+---------+-------+
+| FacultyID  | varchar(15) | NO   | PRI | NULL    |       |
+| Department | int         | YES  | MUL | NULL    |       |
+| Name       | varchar(40) | YES  |     | NULL    |       |
++------------+-------------+------+-----+---------+-------+
+
+mysql> desc rooms;
++------------+-------------+------+-----+---------+-------+
+| Field      | Type        | Null | Key | Default | Extra |
++------------+-------------+------+-----+---------+-------+
+| RoomNo     | varchar(15) | NO   | PRI | NULL    |       |
+| Department | int         | YES  | MUL | NULL    |       |
+| Capacity   | int         | YES  |     | NULL    |       |
++------------+-------------+------+-----+---------+-------+
+
+mysql> desc student;
++------------+-------------+------+-----+---------+-------+
+| Field      | Type        | Null | Key | Default | Extra |
++------------+-------------+------+-----+---------+-------+
+| USN        | varchar(20) | NO   | PRI | NULL    |       |
+| Department | int         | YES  | MUL | NULL    |       |
+| Semester   | int         | YES  |     | NULL    |       |
++------------+-------------+------+-----+---------+-------+
+</p></PRE>
 
