@@ -182,6 +182,7 @@ mysql> desc student;
 
 <h2>Java Program and APIs</h2>
 
+![Flow](Input.png)
 <PRE><p> 
 The code begins with a series of import statements that import necessary classes and packages for JDBC (Java Database Connectivity) and iTextPDF, which is a library used for creating PDF documents in Java.
 The code specifies the path (C:\\Users\\Dell\\Desktop\\PDFfile\\open.pdf) where the PDF file will be created and creates a Document object to represent the PDF document. It then opens the document using document.open().The code establishes a connection to a MySQL database using JDBC. It specifies the database URL, database name, username, and password.
@@ -192,7 +193,5 @@ Exception Handling:The code includes a try-catch block to catch any exceptions t
 Closing Resources:Finally, the code closes the PDF document and handles any exceptions that might occur during the process.
 </p></PRE>
 
-![Flow](Input.png)
-![Flow](images/Input.png)
 
 
