@@ -119,7 +119,7 @@ A project built for my colleges' exam section to solve a problem of inefficient 
 
 <h1>Phase02: Final Project🚀</h1>
 <h2>Database: MySql </h2>
-<h6>We chose MySql database to store our college data since we felt it is bit easier comapered to other databses and we avoided giving user inputs since it becomes so time consuming and spoils user experience of staff</h6>
+<h5 italic >We chose MySql database to store our college data since we felt it is bit easier comapered to other databses and we avoided giving user inputs after we realised it becomes so time consuming and spoils user experience of staffs</h5>
 
 <h3>Tables</h3>
 <PRE><p>+------------------------+
@@ -178,5 +178,23 @@ mysql> desc student;
 | Department | int         | YES  | MUL | NULL    |       |
 | Semester   | int         | YES  |     | NULL    |       |
 +------------+-------------+------+-----+---------+-------+
+</p></PRE>
+
+<h2>Java Program and APIs</h2>
+
+<PRE><p> The code begins with a series of import statements that import necessary classes and packages for JDBC (Java Database Connectivity) and iTextPDF, which is a library used for creating PDF documents in Java.
+The code specifies the path (C:\\Users\\Dell\\Desktop\\PDFfile\\open.pdf) where the PDF file will be created and creates a Document object to represent the PDF document. It then opens the document using document.open().
+The code establishes a connection to a MySQL database using JDBC. It specifies the database URL, database name, username, and password.
+Room Counting: 
+    The code executes a query to count the number of rooms (rooms table) in the database and fetches their names and capacities.
+Main Database Operations: 
+    Within a loop over departments, the code fetches courses and students data from the database, then performs the following tasks for each course:
+    Selects students who have chosen the course.
+    Iterates over rooms and assigns seats to students, creating a list of students and their allocated seats.
+    Writes the student and seat information to the PDF document.
+Exception Handling: 
+    The code includes a try-catch block to catch any exceptions that might occur during database connection or query execution. If an exception occurs, it prints the stack trace and displays an error message using JOptionPane.
+Closing Resources: 
+    Finally, the code closes the PDF document and handles any exceptions that might occur during the process.
 </p></PRE>
 
