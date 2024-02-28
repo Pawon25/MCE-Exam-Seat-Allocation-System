@@ -10,13 +10,13 @@ A project built for my colleges' exam section to solve a problem of inefficient 
 
 
 ## 🛠 Skills
-Java            ^_~
+Java---------------^_~
 
-JDBC API        (‾◡◝)
+JDBC API-----------(‾◡◝)
 
-iTextPdf API    ＞﹏＜
+iTextPdf API-------＞﹏＜
 
-MySQL Database  ⊙.☉
+MySQL Database-----⊙.☉
 
 
 
