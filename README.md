@@ -11,7 +11,7 @@ A project built for my colleges' exam section to solve a problem of inefficient 
 
 <h1>Phase01: Writing a java code to implement student distribution</h1>
 <h4>Input: Filled an static array with all required elements like roomdeatils,itavailability,USN to be followed, capacity etc.</h4>
-<PRE><p>-------------------------------------------
+<h4>Ouput</h4><PRE><p>-------------------------------------------
         RoomName        Capacity        Availability
         -------------------------------------------
         SA101   |       30      |       NAN
